@@ -1,0 +1,100 @@
+body {
+    background: black;
+    color: white;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='105' viewBox='0 0 80 105'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='death-star' fill='%23d70f0f' fill-opacity='0.11'%3E%3Cpath d='M20 10a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V10zm15 35a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zM20 75a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V75zm30-65a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V10zm0 65a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V75zM35 10a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10zM5 45a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zm0-35a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10zm60 35a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zm0-35a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+h1 {
+    padding-left: 28%;
+    padding-right: 20%;
+    font-family: serif;
+}
+
+img {
+    position: absolute;
+    width: 500px;
+    height: 200px;
+    padding-right: 700px;
+    margin-left: 100px;
+    margin-bottom: 10px;
+}
+
+table {
+    margin-left: 60px;
+    margin-right: 60px;
+    padding-top: 5PX;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+th {
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: serif;
+    color: white;
+    text-align: center;
+    background-color: rgb(13, 51, 18);
+}
+
+td {
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+    background-color: white;
+    color: black;
+}
+
+.info {
+    text-align: justify;
+}
+
+#td1 {
+    background-color: rgb(13, 51, 18);
+    color: white;
+}
+
+.banner {
+    position: absolute;
+    top: 440px;
+    background: url("../img/banner.jpg") no-repeat center center/cover;
+    height: 400px;
+    width: 100%;
+}
+
+.pa {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 20px;
+    text-align: justify;
+    padding-top: 180px;
+    padding-left: 50px;
+    padding-right: 50px;
+    opacity: 100%;
+}
+
+.social {
+    position: absolute;
+    top: 900px;
+    width: 100%;
+    margin: 0px;
+    background-color: rgb(0, 0, 0);
+}
+
+.social .footer {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.links i {
+    margin: 10px;
+    font-size: 2rem;
+}
